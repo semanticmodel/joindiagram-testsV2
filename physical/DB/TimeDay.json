@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "TimeDay",
+    "sourceTable" : "physicalTable:DB.SAMP_TIME_DAY_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

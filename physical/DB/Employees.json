@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "Employees",
+    "sourceTable" : "physicalTable:DB.SAMP_EMPL_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

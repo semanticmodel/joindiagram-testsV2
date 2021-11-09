@@ -1,0 +1,112 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_OPPORTUNITY",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "O0_OPPTY_KEY",
+      "dataType" : "VARCHAR",
+      "length" : 10,
+      "nullable" : false
+    }, {
+      "name" : "O1_OPPTY_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 100,
+      "nullable" : false
+    }, {
+      "name" : "O2_CREATED_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O3_CLOSE_DATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O4_SALES_STAGE",
+      "dataType" : "VARCHAR",
+      "length" : 30,
+      "nullable" : false
+    }, {
+      "name" : "O5_PRODUCT_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "O6_WIN_PROB",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O7_PROJ_REV",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O8_ACTUAL_REV",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O9_CUST_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "O10_REGION",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "O11_CAMPAIGN_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "O12_NO_ACTIVITIES",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O13_NO_DAYS_STAGE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O14_REASON_WON_LOSS",
+      "dataType" : "VARCHAR",
+      "length" : 50,
+      "nullable" : false
+    }, {
+      "name" : "O15_LEAD_STATUS",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "O16_SALES_REP_NO",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O17_MANAGER_NO",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O18_PROD_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O19_CUST_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "O20_ADDRESS_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    } ]
+  }
+}

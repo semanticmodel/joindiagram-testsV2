@@ -1,0 +1,59 @@
+{
+  "logicalTable" : {
+    "name" : "SAMP_EMPL_POSTN_D",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "POSTN_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_EMPL_POSTN_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_EMPL_POSTN_D.POSTN_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "POSTN_DESC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_EMPL_POSTN_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_EMPL_POSTN_D.POSTN_DESC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "POSTN_LEVEL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_EMPL_POSTN_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_EMPL_POSTN_D.POSTN_LEVEL" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "SAMP_EMPL_POSTN_D",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:DB.SAMP_EMPL_POSTN_D" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}
