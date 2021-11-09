@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "Revenue",
+    "sourceTable" : "physicalTable:DB.SAMP_REVENUE_F",
+    "overrideSourceCacheSetting" : false
+  }
+}

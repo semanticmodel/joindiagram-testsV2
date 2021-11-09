@@ -1,0 +1,47 @@
+{
+  "physicalTable" : {
+    "name" : "SAMP_EMPL_D",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "EMPLOYEE_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "EMPL_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : false
+    }, {
+      "name" : "POSTN_KEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "HIRE_DT",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "MGR_ID",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "TYPE",
+      "dataType" : "VARCHAR",
+      "length" : 20,
+      "nullable" : false
+    }, {
+      "name" : "POSTN_DESC",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : false
+    }, {
+      "name" : "POSTN_LEVEL",
+      "dataType" : "VARCHAR",
+      "length" : 255,
+      "nullable" : false
+    } ]
+  }
+}

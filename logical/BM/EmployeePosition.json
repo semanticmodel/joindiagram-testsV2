@@ -1,0 +1,59 @@
+{
+  "logicalTable" : {
+    "name" : "EmployeePosition",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "POSTN_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "EmployeePosition",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.EmployeePosition.POSTN_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "POSTN_DESC",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "EmployeePosition",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.EmployeePosition.POSTN_DESC" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "POSTN_LEVEL",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "EmployeePosition",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.EmployeePosition.POSTN_LEVEL" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "EmployeePosition",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:DB.EmployeePosition" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}
