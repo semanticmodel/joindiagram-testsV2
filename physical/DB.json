@@ -21,6 +21,57 @@
     "virtualPrivateDatabase" : false,
     "crmMetadataTables" : false,
     "allowDirectDatabaseRequests" : false,
-    "allowPopulateQueries" : false
+    "allowPopulateQueries" : false,
+    "joins" : [ {
+      "leftTable" : "physicalTable:DB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:DB.SAMP_OPPORTUNITY",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:DB.SAMP_OPPORTUNITY.O0_OPPTY_KEY"
+      } ]
+    }, {
+      "leftTable" : "physicalTable:DB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:DB.SAMP_ADDRESSES_D",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.SHIPTO_ADDR_KEY",
+        "rightColumn" : "physicalColumn:DB.SAMP_ADDRESSES_D.ADDRESS_KEY"
+      } ]
+    }, {
+      "leftTable" : "physicalTable:DB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:DB.SAMP_CUSTOMERS_D",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.CUST_KEY",
+        "rightColumn" : "physicalColumn:DB.SAMP_CUSTOMERS_D.CUST_KEY"
+      } ]
+    }, {
+      "leftTable" : "physicalTable:DB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:DB.SAMP_EMPL_D",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.EMPL_KEY",
+        "rightColumn" : "physicalColumn:DB.SAMP_EMPL_D.EMPLOYEE_KEY"
+      } ]
+    }, {
+      "leftTable" : "physicalTable:DB.SAMP_REVENUE_F",
+      "rightTable" : "physicalTable:DB.SAMP_OFFICES_D",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.OFFICE_KEY",
+        "rightColumn" : "physicalColumn:DB.SAMP_OFFICES_D.OFFICE_KEY"
+      } ]
+    } ]
   }
 }
