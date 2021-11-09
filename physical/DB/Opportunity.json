@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "Opportunity",
+    "sourceTable" : "physicalTable:DB.SAMP_OPPORTUNITY",
+    "overrideSourceCacheSetting" : false
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "logicalTable" : {
+    "name" : "SAMP_OPPORTUNITY",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "O0_OPPTY_KEY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O0_OPPTY_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O1_OPPTY_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O1_OPPTY_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O2_CREATED_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O2_CREATED_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O3_CLOSE_DATE",
+      "dataType" : "DATETIME",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O3_CLOSE_DATE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O4_SALES_STAGE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O4_SALES_STAGE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O5_PRODUCT_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O5_PRODUCT_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O6_WIN_PROB",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O6_WIN_PROB" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O7_PROJ_REV",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O7_PROJ_REV" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O8_ACTUAL_REV",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O8_ACTUAL_REV" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O9_CUST_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O9_CUST_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O10_REGION",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O10_REGION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O11_CAMPAIGN_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O11_CAMPAIGN_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O12_NO_ACTIVITIES",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O12_NO_ACTIVITIES" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O13_NO_DAYS_STAGE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O13_NO_DAYS_STAGE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O14_REASON_WON_LOSS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O14_REASON_WON_LOSS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O15_LEAD_STATUS",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O15_LEAD_STATUS" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O16_SALES_REP_NO",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O16_SALES_REP_NO" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O17_MANAGER_NO",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O17_MANAGER_NO" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O18_PROD_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O18_PROD_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O19_CUST_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O19_CUST_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "O20_ADDRESS_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_OPPORTUNITY",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_OPPORTUNITY.O20_ADDRESS_KEY" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "SAMP_OPPORTUNITY",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:DB.SAMP_OPPORTUNITY" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}

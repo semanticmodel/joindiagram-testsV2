@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "Products",
+    "sourceTable" : "physicalTable:DB.SAMP_PRODUCTS_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

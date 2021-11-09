@@ -1,0 +1,255 @@
+{
+  "logicalTable" : {
+    "name" : "SAMP_ADDRESSES_D",
+    "type" : "DIMENSION",
+    "logicalColumns" : [ {
+      "name" : "ADDRESS1",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.ADDRESS1" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ADDRESS2",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.ADDRESS2" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "POSTAL_CODE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.POSTAL_CODE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CITY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.CITY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STATE_PROVINCE",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.STATE_PROVINCE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CTRY_CD3_STATE_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.CTRY_CD3_STATE_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CTRY_CD3_STATE_ABBRV",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.CTRY_CD3_STATE_ABBRV" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "CTRY_CD3_STATE_NAME_CITY",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.CTRY_CD3_STATE_NAME_CITY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LONGITUDE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.LONGITUDE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "LATITUDE",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.LATITUDE" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ESTAB_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.ESTAB_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "REGION",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.REGION" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ISO_COUNTRY_CODE3",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.ISO_COUNTRY_CODE3" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "COUNTRY_NAME",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.COUNTRY_NAME" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "STATE_PROVINCE_ABBRV",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.STATE_PROVINCE_ABBRV" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "ADDRESS_KEY",
+      "dataType" : "NUMERIC",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.ADDRESS_KEY" ]
+          }
+        } ]
+      }
+    }, {
+      "name" : "AREA",
+      "dataType" : "VARCHAR",
+      "writeable" : false,
+      "logicalColumnSource" : {
+        "derivedFrom" : "PHYSICAL_COLUMNS",
+        "physicalMappings" : [ {
+          "logicalTableSource" : "SAMP_ADDRESSES_D",
+          "physicalExpression" : {
+            "expressionTemplate" : "%1",
+            "expressionObjects" : [ "physicalColumn:DB.SAMP_ADDRESSES_D.AREA" ]
+          }
+        } ]
+      }
+    } ],
+    "logicalTableSources" : [ {
+      "name" : "SAMP_ADDRESSES_D",
+      "disable" : false,
+      "tableMapping" : {
+        "tables" : [ "physicalTable:DB.SAMP_ADDRESSES_D" ]
+      },
+      "combineWithOtherFragments" : false,
+      "enableFragmentSelection" : false,
+      "distinctValues" : false
+    } ]
+  }
+}
