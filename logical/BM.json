@@ -1,25 +1,6 @@
 {
   "businessModel" : {
     "name" : "BM",
-    "disable" : false,
-    "joins" : [ {
-      "leftTable" : "logicalTable:BM.SAMP_REVENUE_F",
-      "rightTable" : "logicalTable:BM.SAMP_OFFICES_D",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "leftTable" : "logicalTable:BM.SAMP_REVENUE_F",
-      "rightTable" : "logicalTable:BM.SAMP_CUSTOMERS_D",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    }, {
-      "leftTable" : "logicalTable:BM.SAMP_REVENUE_F",
-      "rightTable" : "logicalTable:BM.SAMP_EMPL_D",
-      "joinType" : "INNER",
-      "cardinality" : "MANY_TO_ONE",
-      "drivingTable" : "None"
-    } ]
+    "disable" : false
   }
 }
