@@ -2,6 +2,25 @@
   "physicalTable" : {
     "name" : "Revenue",
     "sourceTable" : "physicalTable:DB.SAMP_REVENUE_F",
-    "overrideSourceCacheSetting" : false
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:DB.Employees",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.Revenue.EMPL_KEY",
+        "rightColumn" : "physicalColumn:DB.Employees.EMPLOYEE_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Products",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.Revenue.PROD_KEY",
+        "rightColumn" : "physicalColumn:DB.Products.PROD_KEY"
+      } ]
+    } ]
   }
 }
