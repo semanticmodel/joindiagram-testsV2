@@ -1,0 +1,11 @@
+{
+  "subjectArea" : {
+    "name" : "sa",
+    "description" : "asdfdz",
+    "sourceBusinessModel" : "businessModel:BM",
+    "tableOrder" : [ {
+      "name" : "presentationTable:sa.pt"
+    } ],
+    "localization" : { }
+  }
+}
