@@ -1,7 +1,11 @@
 {
   "physicalTable" : {
-    "name" : "Addresses",
+    "name" : "Addresses1",
     "sourceTable" : "physicalTable:DB.SAMP_ADDRESSES_D",
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    },
     "overrideSourceCacheSetting" : false
   }
 }

@@ -12,7 +12,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.ADDRESS1" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.ADDRESS1" ]
           }
         } ]
       }
@@ -26,7 +26,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.ADDRESS2" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.ADDRESS2" ]
           }
         } ]
       }
@@ -40,7 +40,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.POSTAL_CODE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.POSTAL_CODE" ]
           }
         } ]
       }
@@ -54,7 +54,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.CITY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.CITY" ]
           }
         } ]
       }
@@ -68,7 +68,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.STATE_PROVINCE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.STATE_PROVINCE" ]
           }
         } ]
       }
@@ -82,7 +82,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.CTRY_CD3_STATE_NAME" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.CTRY_CD3_STATE_NAME" ]
           }
         } ]
       }
@@ -96,7 +96,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.CTRY_CD3_STATE_ABBRV" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.CTRY_CD3_STATE_ABBRV" ]
           }
         } ]
       }
@@ -110,7 +110,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.CTRY_CD3_STATE_NAME_CITY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.CTRY_CD3_STATE_NAME_CITY" ]
           }
         } ]
       }
@@ -124,7 +124,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.LONGITUDE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.LONGITUDE" ]
           }
         } ]
       }
@@ -138,7 +138,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.LATITUDE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.LATITUDE" ]
           }
         } ]
       }
@@ -152,7 +152,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.ESTAB_NAME" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.ESTAB_NAME" ]
           }
         } ]
       }
@@ -166,7 +166,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.REGION" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.REGION" ]
           }
         } ]
       }
@@ -180,7 +180,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.ISO_COUNTRY_CODE3" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.ISO_COUNTRY_CODE3" ]
           }
         } ]
       }
@@ -194,7 +194,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.COUNTRY_NAME" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.COUNTRY_NAME" ]
           }
         } ]
       }
@@ -208,7 +208,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.STATE_PROVINCE_ABBRV" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.STATE_PROVINCE_ABBRV" ]
           }
         } ]
       }
@@ -222,7 +222,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.ADDRESS_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.ADDRESS_KEY" ]
           }
         } ]
       }
@@ -236,7 +236,7 @@
           "logicalTableSource" : "Addresses",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Addresses.AREA" ]
+            "expressionObjects" : [ "physicalColumn:DB.Addresses1.AREA" ]
           }
         } ]
       }
@@ -245,7 +245,7 @@
       "name" : "Addresses",
       "disable" : false,
       "tableMapping" : {
-        "tables" : [ "physicalTable:DB.Addresses" ]
+        "tables" : [ "physicalTable:DB.Addresses1" ]
       },
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,
