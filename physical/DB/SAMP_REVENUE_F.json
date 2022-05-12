@@ -184,13 +184,13 @@
         "rightColumn" : "physicalColumn:DB.SAMP_OFFICES_D.OFFICE_KEY"
       } ]
     }, {
-      "rightTable" : "physicalTable:DB.Addresses1",
+      "rightTable" : "physicalTable:DB.Addresses_refactored",
       "useJoinExpression" : false,
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "joinConditions" : [ {
         "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
-        "rightColumn" : "physicalColumn:DB.Addresses1.ADDRESS1"
+        "rightColumn" : "physicalColumn:DB.Addresses_refactored.ADDRESS1"
       } ]
     }, {
       "rightTable" : "physicalTable:DB.Customers",
@@ -238,13 +238,13 @@
         "rightColumn" : "physicalColumn:DB.Offices.COMPANY"
       } ]
     }, {
-      "rightTable" : "physicalTable:DB.Revenue",
+      "rightTable" : "physicalTable:DB.Revenue1",
       "useJoinExpression" : false,
       "joinType" : "INNER",
       "cardinality" : "MANY_TO_ONE",
       "joinConditions" : [ {
         "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
-        "rightColumn" : "physicalColumn:DB.Revenue.BILL_DAY_DT"
+        "rightColumn" : "physicalColumn:DB.Revenue1.BILL_DAY_DT"
       } ]
     }, {
       "rightTable" : "physicalTable:DB.Products",
@@ -254,6 +254,69 @@
       "joinConditions" : [ {
         "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
         "rightColumn" : "physicalColumn:DB.Products.ATTRIBUTE_1"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Addresses_1",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:DB.Addresses_1.ADDRESS1"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Customers_1",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:DB.Customers_1.ACCOUNT_NAME"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.EmployeePosition_1",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:DB.EmployeePosition_1.POSTN_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Offices_1",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:DB.Offices_1.ADDRESS_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Opportunity_1",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:DB.Opportunity_1.O0_OPPTY_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Products_1",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_MTH_KEY",
+        "rightColumn" : "physicalColumn:DB.Products_1.ATTRIBUTE_1"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Revenue1_1",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.SAMP_REVENUE_F.BILL_DAY_DT",
+        "rightColumn" : "physicalColumn:DB.Revenue1_1.BILL_MTH_KEY"
       } ]
     } ]
   }

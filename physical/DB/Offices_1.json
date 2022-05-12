@@ -1,0 +1,7 @@
+{
+  "physicalTable" : {
+    "name" : "Offices_1",
+    "sourceTable" : "physicalTable:DB.SAMP_OFFICES_D",
+    "overrideSourceCacheSetting" : false
+  }
+}

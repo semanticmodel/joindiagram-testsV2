@@ -1,0 +1,35 @@
+{
+  "physicalTable" : {
+    "name" : "Employees_1",
+    "sourceTable" : "physicalTable:DB.SAMP_EMPL_D",
+    "overrideSourceCacheSetting" : false,
+    "joins" : [ {
+      "rightTable" : "physicalTable:DB.EmployeePosition",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.Employees.POSTN_KEY",
+        "rightColumn" : "physicalColumn:DB.EmployeePosition.POSTN_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Offices",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.Employees.POSTN_KEY",
+        "rightColumn" : "physicalColumn:DB.Offices.DEPT_KEY"
+      } ]
+    }, {
+      "rightTable" : "physicalTable:DB.Opportunity",
+      "useJoinExpression" : false,
+      "joinType" : "INNER",
+      "cardinality" : "MANY_TO_ONE",
+      "joinConditions" : [ {
+        "leftColumn" : "physicalColumn:DB.Employees.EMPLOYEE_KEY",
+        "rightColumn" : "physicalColumn:DB.Opportunity.O16_SALES_REP_NO"
+      } ]
+    } ]
+  }
+}

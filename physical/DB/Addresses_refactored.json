@@ -1,0 +1,11 @@
+{
+  "physicalTable" : {
+    "name" : "Addresses_refactored",
+    "sourceTable" : "physicalTable:DB.SAMP_ADDRESSES_D",
+    "caching" : {
+      "enable" : false,
+      "expiryTime" : 0
+    },
+    "overrideSourceCacheSetting" : false
+  }
+}

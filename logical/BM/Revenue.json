@@ -12,7 +12,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.SHIPTO_ADDR_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.SHIPTO_ADDR_KEY" ]
           }
         } ]
       }
@@ -26,7 +26,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.OFFICE_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.OFFICE_KEY" ]
           }
         } ]
       }
@@ -40,7 +40,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.EMPL_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.EMPL_KEY" ]
           }
         } ]
       }
@@ -54,7 +54,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.PROD_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.PROD_KEY" ]
           }
         } ]
       }
@@ -68,7 +68,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_KEY" ]
           }
         } ]
       }
@@ -82,7 +82,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.UNITS" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.UNITS" ]
           }
         } ]
       }
@@ -96,7 +96,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.DISCNT_VALUE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.DISCNT_VALUE" ]
           }
         } ]
       }
@@ -110,7 +110,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.BILL_MTH_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.BILL_MTH_KEY" ]
           }
         } ]
       }
@@ -124,7 +124,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.BILL_QTR_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.BILL_QTR_KEY" ]
           }
         } ]
       }
@@ -138,7 +138,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.BILL_DAY_DT" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.BILL_DAY_DT" ]
           }
         } ]
       }
@@ -152,7 +152,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_DAY_DT" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_DAY_DT" ]
           }
         } ]
       }
@@ -166,7 +166,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.PAID_DAY_DT" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.PAID_DAY_DT" ]
           }
         } ]
       }
@@ -180,7 +180,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.DISCNT_RATE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.DISCNT_RATE" ]
           }
         } ]
       }
@@ -194,7 +194,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_STATUS" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_STATUS" ]
           }
         } ]
       }
@@ -208,7 +208,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.CURRENCY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.CURRENCY" ]
           }
         } ]
       }
@@ -222,7 +222,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_TYPE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_TYPE" ]
           }
         } ]
       }
@@ -236,7 +236,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.CUST_KEY" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.CUST_KEY" ]
           }
         } ]
       }
@@ -250,7 +250,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.SHIP_DAY_DT" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.SHIP_DAY_DT" ]
           }
         } ]
       }
@@ -264,7 +264,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.COST_FIXED" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.COST_FIXED" ]
           }
         } ]
       }
@@ -278,7 +278,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.COST_VARIABLE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.COST_VARIABLE" ]
           }
         } ]
       }
@@ -292,7 +292,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.SRC_ORDER_NUMBER" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.SRC_ORDER_NUMBER" ]
           }
         } ]
       }
@@ -306,7 +306,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_NUMBER" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_NUMBER" ]
           }
         } ]
       }
@@ -320,7 +320,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.REVENUE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.REVENUE" ]
           }
         } ]
       }
@@ -334,7 +334,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_DTIME1_DB_TZ" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_DTIME1_DB_TZ" ]
           }
         } ]
       }
@@ -348,7 +348,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_DTIME2_TIMEZONE" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_DTIME2_TIMEZONE" ]
           }
         } ]
       }
@@ -362,7 +362,7 @@
           "logicalTableSource" : "Revenue",
           "physicalExpression" : {
             "expressionTemplate" : "%1",
-            "expressionObjects" : [ "physicalColumn:DB.Revenue.ORDER_DTIME2_CUSTOM_TZ" ]
+            "expressionObjects" : [ "physicalColumn:DB.Revenue1.ORDER_DTIME2_CUSTOM_TZ" ]
           }
         } ]
       }
@@ -371,7 +371,7 @@
       "name" : "Revenue",
       "disable" : false,
       "tableMapping" : {
-        "tables" : [ "physicalTable:DB.Revenue" ]
+        "tables" : [ "physicalTable:DB.Revenue1" ]
       },
       "combineWithOtherFragments" : false,
       "enableFragmentSelection" : false,

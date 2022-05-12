@@ -1,9 +1,9 @@
 {
   "physicalTable" : {
-    "name" : "SAMP_ADDRESSES_D",
+    "name" : "SAMP_ADDRESSES_D_1",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
-      "name" : "ADDRESS1",
+      "name" : "ADDRESS1_Ref_1",
       "dataType" : "VARCHAR",
       "length" : 40,
       "nullable" : false
@@ -43,12 +43,12 @@
       "length" : 300,
       "nullable" : false
     }, {
-      "name" : "LONGITUDE",
+      "name" : "LONGITUDE_1",
       "dataType" : "NUMERIC",
       "length" : 0,
       "nullable" : false
     }, {
-      "name" : "LATITUDE",
+      "name" : "_1LATITUDE",
       "dataType" : "NUMERIC",
       "length" : 0,
       "nullable" : false
